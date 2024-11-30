@@ -1,4 +1,110 @@
 
+
+
+# TSMS
+
+**Contact**: sahuashish940@gmail.com  
+**Readme Created By**: Ashish sahu  
+
+
+A College-Based Data Management System.
+
+- There are two types of roles: Staff [Teacher, HOD] and Student.
+
+## Login Details
+
+PS: BE KIND :)
+
+### Teacher [Staff]
+
+**Username:** Delphine  
+**Password:** Delphine123
+
+Teacher can add or edit:
+
+- Notes
+- Attendance
+- Internal Marks
+- Time Schedule
+
+### HOD (Head of Department) [Staff]
+
+**Username:** Moriah  
+**Password:** Moriah123
+
+HOD can do everything a Teacher can do.  
+Additionally, HOD can:
+
+- Approve new Teachers
+- Add New Paper
+
+### Student
+
+**Username:** Bret  
+**Password:** Bret
+
+Or register a new Student and log in.  
+You can also log in with the first name of any student in the class.
+
+Student can view:
+
+- Notes
+- Attendance
+- Internal Marks
+
+> Attendance and marks need to be added by the teacher first.  
+> Students can also join or leave a paper (subject).
+
+## Tech Stack
+
+**Client:** React, TailwindCSS
+
+**Server:** NodeJS, ExpressJS
+
+**Database:** MongoDB, Mongoose
+
+## Other Features
+
+- Profile
+- Dark Theme
+- Mobile Responsive
+
+## Setting Up
+
+Change Directory:
+
+```bash
+  cd tsms
+```
+
+Install dependencies:
+
+```bash
+  npm install
+```
+
+Finally, start the server:
+
+```bash
+  npm start
+```
+
+To use your own server and database, modify the backend configuration in the frontend to match your setup.
+
+## Roadmap
+
+- Add admin functionality 😴
+- Cache Queries
+- Paginate Queries
+
+## Contact
+
+Errors are bound to happen, and the documentation is incomplete.  
+We’d love to hear your feedback and suggestions.  
+
+Developed by: Ashish, Aruna, Ayush.
+
+
 --
 
 # TSMS API
@@ -112,3 +218,7 @@ Developed by: Ashish, Aruna, Ayush
 - Node.js Tutorial by Dave Gray
 
 ## License
+
+
+
+
